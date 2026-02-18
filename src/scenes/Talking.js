@@ -57,7 +57,7 @@ class Talking extends Phaser.Scene {
         this.philostrate = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'philostrate')
         this.philostrate.speakerXOffset = 160
         this.bob = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'bob')
-        this.bob.speakerXOffset = 200
+        this.bob.speakerXOffset = 160
 
         // add dialog box sprite
         this.dialogbox = this.add.sprite(this.DBOX_X, this.DBOX_Y, 'dialogbox').setOrigin(0)
